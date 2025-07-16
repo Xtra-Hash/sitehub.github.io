@@ -1,26 +1,78 @@
-### Stellar Network Platform
-![XLM](https://user-images.githubusercontent.com/124602747/217122746-6d4b4a03-64ab-4210-8951-f691e84466aa.jpg)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteHub - Your Central Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-Trade Our Token:
-[GOLDBULLION](https://stellarterm.com/exchange/GOLDBULLION-GDVNUA7KUHGLYRUYD65II3NDO6ARA23PRTA3DII2ABJZ4QAULG5NOP4Y/XLM-native)
+    <header>
+        <nav>
+            <div class="logo">SiteHub</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Stellar is an open-source network optimized for payments and asset issuance. On Stellar, you can create, send, and trade digital representations of all forms of value — U.S. dollars, Argentine pesos, Bitcoin, real estate, pretty much anything. It’s designed so all the world’s financial systems can freely interoperate with each other, all on a single network.
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Welcome to SiteHub</h1>
+                <p>Your one-stop destination for all your needs.</p>
+                <button id="hero-button">Learn More</button>
+            </div>
+        </section>
 
-As a public network, Stellar has no owner; if anything it’s owned by the public. The software runs across a decentralized, open network and handles millions of transactions each day. Like Bitcoin and Ethereum, Stellar relies on blockchain to keep the network in sync, but the end-user experience is more like cash — Stellar is much faster, cheaper, and more energy-efficient than typical blockchain-based systems.
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing exceptional service and innovative solutions.  Our team is passionate about helping you achieve your goals.</p>
+        </section>
 
-XLM in circulation:
-    26,363,849,084 [XLM](https://stellar.expert/explorer/public/asset/XLM)
-XLM reserved:
-    79,076,713,208 [XLM](https://stellar.expert/explorer/public/asset/XLM)
-Total accounts:
-    7,159,540
-Daily active accounts:
-    44,865
-Average ledger time:
-    5.8s
-Protocol version:
-    [19]
-Base operation fee:
-    0.00001 [XLM]
-Base reserve:
-    0.5 [XLM]
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>We create responsive and user-friendly websites.</p>
+                </div>
+                <div class="service">
+                    <h3>Mobile App Development</h3>
+                    <p>We build native and cross-platform mobile applications.</p>
+                </div>
+                <div class="service">
+                    <h3>Digital Marketing</h3>
+                    <p>We help you reach your target audience and grow your business.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SiteHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
