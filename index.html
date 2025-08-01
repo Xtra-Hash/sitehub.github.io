@@ -439,10 +439,9 @@
         <header>
             <h1>Welcome to SiteHub</h1>
             <p class="subtitle">Your one-stop destination for Stellar Blockchain Tokens hosted on GitHub Repositories</p>
-            <span class="stellar-badge">
-                <span class="stellar-icon"></span>
-                Powered by Stellar Blockchain & GitHub
-            </span>
+                </div>
+                <a href="https://stellarterm.com" class="cta-button">Visit StellarTerm</a>
+            </div>
         </header>
         
         <div class="content">
@@ -467,14 +466,7 @@
                         <p>We help you reach your target audience and grow your business through blockchain-powered marketing solutions, including token airdrops and community building.</p>
                     </div>
                 </div>
-                <div class="action-container">
-                    <button class="discover-btn">
-                        <span>Discover Market on StellarTerm</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -500,16 +492,6 @@
                         this.style.transform = '';
                     }, 150);
                 });
-            });
-            
-            // Add button click effect
-            const discoverBtn = document.querySelector('.discover-btn');
-            discoverBtn.addEventListener('click', function() {
-                this.innerHTML = '<span>Connecting to StellarTerm...</span>';
-                setTimeout(() => {
-                    this.innerHTML = '<span>Discover Market on StellarTerm</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-                    alert('Redirecting to StellarTerm... Your tokens are ready for trading with XLM!');
-                }, 1500);
             });
             
             // Add floating animation to header elements
