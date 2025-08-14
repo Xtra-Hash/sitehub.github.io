@@ -6,7 +6,7 @@
 
 🚀 **Discover, Explore, and Interact** with community-driven tokens on the Stellar network — all securely hosted and open-source via GitHub.
 
-🔗 **Visit [StellarTerm](https://stellarterm.com)** to trade and manage your favorite tokens today!
+🔗 **Visit [StellarTerm](https://stellarterm.com/markets/?search=sitehub.website)** to trade and manage your favorite tokens today!
 
 ---
 
@@ -54,7 +54,7 @@ With SiteHub, the power stays in your hands.
 
 ---
 
-🔗 **Visit [StellarTerm](https://stellarterm.com)** to start trading today!  
+🔗 **Visit [StellarTerm](https://stellarterm.com/markets/?search=sitehub.website)** to start trading today!  
 🐙 Follow us on GitHub for updates and new token launches.
 
 ---
