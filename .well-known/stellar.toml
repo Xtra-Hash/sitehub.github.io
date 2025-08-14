@@ -1,4 +1,5 @@
-VERSION="2.5.0"
+VERSION="2.3.0"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 [DOCUMENTATION]
 ORG_NAME="Sitehub"
